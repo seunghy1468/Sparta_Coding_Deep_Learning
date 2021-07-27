@@ -5,7 +5,8 @@
 
 import cv2
 
-video = cv2.VideoCapture('03.mp4')
+video = cv2.VideoCapture(
+    'C:/Users/MSI/Desktop/Work space/sparta_coding_deep_learning_clone/week1/03.mp4')
 
 while True:
     ret, img = video.read()
@@ -14,10 +15,10 @@ while True:
     if ret == False:
         break
 
-    cropped_video = img[183:465, 721:878]
-    gray_video = cv2.cvtColor(cropped_video, cv2.COLOR_BGR2GRAY)
+    # cropped_video = img[183:465, 721:878]
+    # gray_video = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    cv2.imshow('result', gray_video)
+    cv2.imshow('result', img)
 
     if cv2.waitKey(10) == ord('q'):
         break
