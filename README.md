@@ -2,7 +2,7 @@
 
 ## week 1
 
-**원본이미지**
+**원본 iamge (video)**
 
 ![5](https://user-images.githubusercontent.com/47622991/127100796-30f9332d-2ae2-42b0-9b0c-40bac75611bc.PNG)
 
